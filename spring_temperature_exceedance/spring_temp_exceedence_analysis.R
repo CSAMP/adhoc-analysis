@@ -33,16 +33,16 @@ temp_with_wy <- filtered_temp_with_daily_averages %>%
             min_temp = min(Temperature), 
             max_temp = max(Temperature), 
             avg_temp = mean(Temperature),
-            first_date_exceeds =  min(if_else(Temperature  > threshold, Date, lubridate::ymd('3000-01-01')), na.rm = T)) %>% 
-  replace_with_na(replace = list(first_date_exceeds = lubridate::ymd('3000-01-01'))) %>%
-  gather(stat, value, prop_above_threshold:first_date_exceeds) %>%
+            first_day_exceeded =  min(if_else(Temperature  > threshold, Date, ymd('3000-01-01')), na.rm = T)) %>% 
+  mutate(first_day_exceeded = ifelse(first_day_exceeded == ymd('3000-01-01'), NA, day(first_day_exceeded))) %>%
+  gather(stat, value, prop_above_threshold:first_day_exceeded) %>%
   glimpse()
-  
   
 
 View(temp_with_wy)
-#write_csv(temp_with_wy, "frequency_exceeding_temps/cache_slough_temp_exceeding_thresholds.csv")
-#write_csv(temp_with_wy, "frequency_exceeding_temps/cache_slough_strata_temp_exceeding_thresholds.csv")
+write_csv(temp_with_wy, "cache_slough_temp_exceeding_thresholds_long.csv")
+# write_csv(temp_with_wy, "cache_slough_temp_exceeding_thresholds_wide.csv")
+# write_csv(temp_with_wy, "frequency_exceeding_temps/cache_slough_strata_temp_exceeding_thresholds.csv")
 
 # Checks a few months to see if proportion exceeding match up 
 # explore_temp <- filtered_temp %>% filter(Year == 2008, Month == 4) %>% mutate(above_17 = sum(Temperature > 17)/n())
