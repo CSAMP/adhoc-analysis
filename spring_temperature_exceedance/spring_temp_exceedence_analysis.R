@@ -47,6 +47,3 @@ temp_with_wy <- daily_mean_temp %>%
 View(temp_with_wy)
 write_csv(temp_with_wy, "cache_slough_temp_exceeding_thresholds_long.csv")
 # write_csv(temp_with_wy, "cache_slough_temp_exceeding_thresholds_wide.csv")
-
-
-
