@@ -1,49 +1,4 @@
-water_year,water_year_type,Region,Month,stat,value
-1968,Below Normal,Sacramento River,3,prop_above_threshold,0
-1969,Wet,Sacramento River,3,prop_above_threshold,0
-1970,Wet,Sacramento River,3,prop_above_threshold,0
-1971,Wet,Sacramento River,3,prop_above_threshold,0
-1972,Below Normal,Sacramento River,3,prop_above_threshold,0
-1975,Wet,Sacramento River,4,prop_above_threshold,0
-1976,Critical,Sacramento River,3,prop_above_threshold,0
-1976,Critical,Sacramento River,4,prop_above_threshold,0
-1977,Critical,Sacramento River,3,prop_above_threshold,0
-1977,Critical,Sacramento River,4,prop_above_threshold,0.5
-1978,Above Normal,Sacramento River,3,prop_above_threshold,0
-1978,Above Normal,Sacramento River,4,prop_above_threshold,0
-1979,Below Normal,Sacramento River,3,prop_above_threshold,0
-1979,Below Normal,Sacramento River,4,prop_above_threshold,0
-1980,Above Normal,Sacramento River,3,prop_above_threshold,0
-1980,Above Normal,Sacramento River,4,prop_above_threshold,0
-1981,Dry,Sacramento River,3,prop_above_threshold,0
-1981,Dry,Sacramento River,4,prop_above_threshold,0.5
-1982,Wet,Sacramento River,3,prop_above_threshold,0
-1982,Wet,Sacramento River,4,prop_above_threshold,0
-1983,Wet,Sacramento River,3,prop_above_threshold,0
-1983,Wet,Sacramento River,4,prop_above_threshold,0
-1984,Wet,Sacramento River,3,prop_above_threshold,0
-1984,Wet,Sacramento River,4,prop_above_threshold,0
-1985,Dry,Sacramento River,3,prop_above_threshold,0
-1985,Dry,Sacramento River,4,prop_above_threshold,0.5
-1986,Wet,Sacramento River,3,prop_above_threshold,0
-1986,Wet,Sacramento River,4,prop_above_threshold,0
-1987,Dry,Sacramento River,4,prop_above_threshold,1
-1988,Critical,Sacramento River,3,prop_above_threshold,0.5
-1988,Critical,Sacramento River,4,prop_above_threshold,0.09090909090909091
-1989,Dry,Sacramento River,3,prop_above_threshold,0
-1989,Dry,Sacramento River,4,prop_above_threshold,0.6666666666666666
-1990,Critical,Sacramento River,3,prop_above_threshold,0.1724137931034483
-1990,Critical,Sacramento River,4,prop_above_threshold,1
-1991,Critical,Sacramento River,3,prop_above_threshold,0
-1991,Critical,Sacramento River,4,prop_above_threshold,0.5
-1992,Critical,Sacramento River,3,prop_above_threshold,0.13333333333333333
-1992,Critical,Sacramento River,4,prop_above_threshold,1
-1993,Above Normal,Sacramento River,3,prop_above_threshold,0.3333333333333333
-1993,Above Normal,Sacramento River,4,prop_above_threshold,0
-1993,Above Normal,Yolo Bypass,4,prop_above_threshold,0
-1994,Critical,Sacramento River,3,prop_above_threshold,0.125
-1994,Critical,Sacramento River,4,prop_above_threshold,0.10526315789473684
-1994,Critical,Yolo Bypass,4,prop_above_threshold,0
+water_year,water_year_type,region,month,stat,value
 1995,Wet,Sacramento River,3,prop_above_threshold,0
 1995,Wet,Sacramento River,4,prop_above_threshold,0
 1995,Wet,Yolo Bypass,3,prop_above_threshold,0
@@ -51,7 +6,7 @@ water_year,water_year_type,Region,Month,stat,value
 1996,Wet,Sacramento River,4,prop_above_threshold,0
 1996,Wet,Yolo Bypass,4,prop_above_threshold,0
 1997,Wet,Sacramento River,3,prop_above_threshold,0
-1997,Wet,Sacramento River,4,prop_above_threshold,0.38461538461538464
+1997,Wet,Sacramento River,4,prop_above_threshold,0.4
 1997,Wet,Yolo Bypass,3,prop_above_threshold,0
 1997,Wet,Yolo Bypass,4,prop_above_threshold,1
 1998,Wet,Sacramento River,3,prop_above_threshold,0
@@ -64,22 +19,22 @@ water_year,water_year_type,Region,Month,stat,value
 2000,Above Normal,Sacramento River,4,prop_above_threshold,0
 2000,Above Normal,Yolo Bypass,3,prop_above_threshold,0
 2000,Above Normal,Yolo Bypass,4,prop_above_threshold,0
-2001,Dry,Sacramento River,3,prop_above_threshold,0.2222222222222222
-2001,Dry,Sacramento River,4,prop_above_threshold,0.1111111111111111
+2001,Dry,Sacramento River,3,prop_above_threshold,0.4
+2001,Dry,Sacramento River,4,prop_above_threshold,0.125
 2001,Dry,Yolo Bypass,3,prop_above_threshold,0.5
-2002,Dry,Sacramento River,3,prop_above_threshold,0.1875
-2002,Dry,Sacramento River,4,prop_above_threshold,0.4166666666666667
+2002,Dry,Sacramento River,3,prop_above_threshold,0.2727272727272727
+2002,Dry,Sacramento River,4,prop_above_threshold,0.5
 2002,Dry,Yolo Bypass,3,prop_above_threshold,0
 2002,Dry,Yolo Bypass,4,prop_above_threshold,0
-2003,Above Normal,Sacramento River,3,prop_above_threshold,0.07142857142857142
+2003,Above Normal,Sacramento River,3,prop_above_threshold,0.1
 2003,Above Normal,Sacramento River,4,prop_above_threshold,0
 2003,Above Normal,Yolo Bypass,3,prop_above_threshold,0
 2003,Above Normal,Yolo Bypass,4,prop_above_threshold,0
-2004,Below Normal,Sacramento River,3,prop_above_threshold,0.15384615384615385
-2004,Below Normal,Sacramento River,4,prop_above_threshold,0.2727272727272727
+2004,Below Normal,Sacramento River,3,prop_above_threshold,0.1111111111111111
+2004,Below Normal,Sacramento River,4,prop_above_threshold,0.3333333333333333
 2004,Below Normal,Yolo Bypass,3,prop_above_threshold,0
 2004,Below Normal,Yolo Bypass,4,prop_above_threshold,0.3333333333333333
-2005,Above Normal,Sacramento River,3,prop_above_threshold,0.2857142857142857
+2005,Above Normal,Sacramento River,3,prop_above_threshold,0.3
 2005,Above Normal,Sacramento River,4,prop_above_threshold,0
 2005,Above Normal,Yolo Bypass,3,prop_above_threshold,0
 2005,Above Normal,Yolo Bypass,4,prop_above_threshold,0
@@ -87,251 +42,161 @@ water_year,water_year_type,Region,Month,stat,value
 2006,Wet,Sacramento River,4,prop_above_threshold,0
 2006,Wet,Yolo Bypass,3,prop_above_threshold,0
 2006,Wet,Yolo Bypass,4,prop_above_threshold,0
-2007,Dry,Sacramento River,3,prop_above_threshold,0.3333333333333333
-2007,Dry,Sacramento River,4,prop_above_threshold,0.21428571428571427
+2007,Dry,Sacramento River,3,prop_above_threshold,0.45454545454545453
+2007,Dry,Sacramento River,4,prop_above_threshold,0.2727272727272727
 2007,Dry,Yolo Bypass,3,prop_above_threshold,0.5
 2007,Dry,Yolo Bypass,4,prop_above_threshold,0.5
 2008,Critical,Sacramento River,3,prop_above_threshold,0
-2008,Critical,Sacramento River,4,prop_above_threshold,0.05
+2008,Critical,Sacramento River,4,prop_above_threshold,0.07142857142857142
 2008,Critical,Yolo Bypass,3,prop_above_threshold,0
-2008,Critical,Yolo Bypass,4,prop_above_threshold,0.3333333333333333
-2009,Dry,Sacramento River,3,prop_above_threshold,0.06666666666666667
-2009,Dry,Sacramento River,4,prop_above_threshold,0.125
+2008,Critical,Yolo Bypass,4,prop_above_threshold,0.2
+2009,Dry,Sacramento River,3,prop_above_threshold,0
+2009,Dry,Sacramento River,4,prop_above_threshold,0.09090909090909091
 2009,Dry,Yolo Bypass,3,prop_above_threshold,0
 2009,Dry,Yolo Bypass,4,prop_above_threshold,0.5
-2010,Below Normal,Sacramento River,3,prop_above_threshold,0.125
+2010,Below Normal,Sacramento River,3,prop_above_threshold,0.1
 2010,Below Normal,Sacramento River,4,prop_above_threshold,0
-2010,Below Normal,Yolo Bypass,3,prop_above_threshold,0.6
+2010,Below Normal,Yolo Bypass,3,prop_above_threshold,0.5
 2010,Below Normal,Yolo Bypass,4,prop_above_threshold,0.25
 2011,Wet,Sacramento River,3,prop_above_threshold,0
 2011,Wet,Sacramento River,4,prop_above_threshold,0
-2011,Wet,Yolo Bypass,3,prop_above_threshold,0.16666666666666666
+2011,Wet,Yolo Bypass,3,prop_above_threshold,0.3333333333333333
 2011,Wet,Yolo Bypass,4,prop_above_threshold,0
 2012,Below Normal,Sacramento River,3,prop_above_threshold,0
-2012,Below Normal,Sacramento River,4,prop_above_threshold,0.18181818181818182
+2012,Below Normal,Sacramento River,4,prop_above_threshold,0.2857142857142857
 2012,Below Normal,Yolo Bypass,3,prop_above_threshold,0
-2012,Below Normal,Yolo Bypass,4,prop_above_threshold,0.2857142857142857
-2013,Dry,Sacramento River,3,prop_above_threshold,0.06666666666666667
-2013,Dry,Sacramento River,4,prop_above_threshold,0.5
-2013,Dry,Yolo Bypass,3,prop_above_threshold,0.2222222222222222
-2013,Dry,Yolo Bypass,4,prop_above_threshold,0.5
-2014,Critical,Sacramento River,3,prop_above_threshold,0.25
-2014,Critical,Sacramento River,4,prop_above_threshold,0.6666666666666666
-2014,Critical,Yolo Bypass,3,prop_above_threshold,0.3333333333333333
-2014,Critical,Yolo Bypass,4,prop_above_threshold,0.6153846153846154
-2015,Critical,Sacramento River,3,prop_above_threshold,0.6111111111111112
-2015,Critical,Sacramento River,4,prop_above_threshold,0.6666666666666666
-2015,Critical,Yolo Bypass,3,prop_above_threshold,0.75
-2015,Critical,Yolo Bypass,4,prop_above_threshold,0.7272727272727273
+2012,Below Normal,Yolo Bypass,4,prop_above_threshold,0.3333333333333333
+2013,Dry,Sacramento River,3,prop_above_threshold,0.1
+2013,Dry,Sacramento River,4,prop_above_threshold,0.45454545454545453
+2013,Dry,Yolo Bypass,3,prop_above_threshold,0.2
+2013,Dry,Yolo Bypass,4,prop_above_threshold,0.3333333333333333
+2014,Critical,Sacramento River,3,prop_above_threshold,0.2222222222222222
+2014,Critical,Sacramento River,4,prop_above_threshold,0.7
+2014,Critical,Yolo Bypass,3,prop_above_threshold,0.25
+2014,Critical,Yolo Bypass,4,prop_above_threshold,0.75
+2015,Critical,Sacramento River,3,prop_above_threshold,0.6363636363636364
+2015,Critical,Sacramento River,4,prop_above_threshold,0.6923076923076923
+2015,Critical,Yolo Bypass,3,prop_above_threshold,1
+2015,Critical,Yolo Bypass,4,prop_above_threshold,0.75
 2016,Below Normal,Sacramento River,3,prop_above_threshold,0
-2016,Below Normal,Sacramento River,4,prop_above_threshold,0.14285714285714285
-2016,Below Normal,Yolo Bypass,3,prop_above_threshold,0.6
-2016,Below Normal,Yolo Bypass,4,prop_above_threshold,0.9411764705882353
+2016,Below Normal,Sacramento River,4,prop_above_threshold,0.2222222222222222
+2016,Below Normal,Yolo Bypass,3,prop_above_threshold,0.5
+2016,Below Normal,Yolo Bypass,4,prop_above_threshold,1
 2017,Wet,Sacramento River,3,prop_above_threshold,0
 2017,Wet,Sacramento River,4,prop_above_threshold,0
-2017,Wet,Yolo Bypass,3,prop_above_threshold,0.46153846153846156
-2017,Wet,Yolo Bypass,4,prop_above_threshold,0.5
+2017,Wet,Yolo Bypass,3,prop_above_threshold,0.6
+2017,Wet,Yolo Bypass,4,prop_above_threshold,0.6666666666666666
 2018,Below Normal,Sacramento River,3,prop_above_threshold,0
-2018,Below Normal,Sacramento River,4,prop_above_threshold,0.21428571428571427
+2018,Below Normal,Sacramento River,4,prop_above_threshold,0.2222222222222222
 2018,Below Normal,Yolo Bypass,3,prop_above_threshold,0
-2018,Below Normal,Yolo Bypass,4,prop_above_threshold,0.45454545454545453
+2018,Below Normal,Yolo Bypass,4,prop_above_threshold,0.25
 2019,Wet,Sacramento River,3,prop_above_threshold,0
-2019,Wet,Sacramento River,4,prop_above_threshold,0.08333333333333333
-2019,Wet,Yolo Bypass,3,prop_above_threshold,0.057692307692307696
+2019,Wet,Sacramento River,4,prop_above_threshold,0.0625
+2019,Wet,Yolo Bypass,3,prop_above_threshold,0.1
 2019,Wet,Yolo Bypass,4,prop_above_threshold,0.75
 2020,NA,Sacramento River,3,prop_above_threshold,0
-2020,NA,Yolo Bypass,3,prop_above_threshold,0.06666666666666667
-1968,Below Normal,Sacramento River,3,n,2
-1969,Wet,Sacramento River,3,n,2
-1970,Wet,Sacramento River,3,n,1
-1971,Wet,Sacramento River,3,n,1
-1972,Below Normal,Sacramento River,3,n,2
-1975,Wet,Sacramento River,4,n,2
-1976,Critical,Sacramento River,3,n,2
-1976,Critical,Sacramento River,4,n,2
-1977,Critical,Sacramento River,3,n,2
-1977,Critical,Sacramento River,4,n,2
-1978,Above Normal,Sacramento River,3,n,5
-1978,Above Normal,Sacramento River,4,n,2
-1979,Below Normal,Sacramento River,3,n,2
-1979,Below Normal,Sacramento River,4,n,2
-1980,Above Normal,Sacramento River,3,n,2
-1980,Above Normal,Sacramento River,4,n,4
-1981,Dry,Sacramento River,3,n,2
-1981,Dry,Sacramento River,4,n,2
-1982,Wet,Sacramento River,3,n,2
-1982,Wet,Sacramento River,4,n,1
-1983,Wet,Sacramento River,3,n,1
-1983,Wet,Sacramento River,4,n,1
-1984,Wet,Sacramento River,3,n,1
-1984,Wet,Sacramento River,4,n,1
-1985,Dry,Sacramento River,3,n,2
-1985,Dry,Sacramento River,4,n,2
-1986,Wet,Sacramento River,3,n,1
-1986,Wet,Sacramento River,4,n,1
-1987,Dry,Sacramento River,4,n,2
-1988,Critical,Sacramento River,3,n,2
-1988,Critical,Sacramento River,4,n,11
-1989,Dry,Sacramento River,3,n,2
-1989,Dry,Sacramento River,4,n,3
-1990,Critical,Sacramento River,3,n,29
-1990,Critical,Sacramento River,4,n,2
-1991,Critical,Sacramento River,3,n,13
-1991,Critical,Sacramento River,4,n,4
-1992,Critical,Sacramento River,3,n,15
-1992,Critical,Sacramento River,4,n,3
-1993,Above Normal,Sacramento River,3,n,24
-1993,Above Normal,Sacramento River,4,n,25
-1993,Above Normal,Yolo Bypass,4,n,1
-1994,Critical,Sacramento River,3,n,16
-1994,Critical,Sacramento River,4,n,19
-1994,Critical,Yolo Bypass,4,n,1
-1995,Wet,Sacramento River,3,n,15
-1995,Wet,Sacramento River,4,n,21
+2020,NA,Yolo Bypass,3,prop_above_threshold,0
+1995,Wet,Sacramento River,3,n,7
+1995,Wet,Sacramento River,4,n,10
 1995,Wet,Yolo Bypass,3,n,1
-1996,Wet,Sacramento River,3,n,23
-1996,Wet,Sacramento River,4,n,18
+1996,Wet,Sacramento River,3,n,12
+1996,Wet,Sacramento River,4,n,16
 1996,Wet,Yolo Bypass,4,n,1
-1997,Wet,Sacramento River,3,n,20
-1997,Wet,Sacramento River,4,n,13
+1997,Wet,Sacramento River,3,n,12
+1997,Wet,Sacramento River,4,n,10
 1997,Wet,Yolo Bypass,3,n,1
 1997,Wet,Yolo Bypass,4,n,1
-1998,Wet,Sacramento River,3,n,19
-1998,Wet,Sacramento River,4,n,5
-1999,Wet,Sacramento River,3,n,20
-1999,Wet,Sacramento River,4,n,16
+1998,Wet,Sacramento River,3,n,12
+1998,Wet,Sacramento River,4,n,4
+1999,Wet,Sacramento River,3,n,11
+1999,Wet,Sacramento River,4,n,15
 1999,Wet,Yolo Bypass,3,n,1
 1999,Wet,Yolo Bypass,4,n,2
-2000,Above Normal,Sacramento River,3,n,16
-2000,Above Normal,Sacramento River,4,n,10
+2000,Above Normal,Sacramento River,3,n,9
+2000,Above Normal,Sacramento River,4,n,7
 2000,Above Normal,Yolo Bypass,3,n,2
 2000,Above Normal,Yolo Bypass,4,n,1
-2001,Dry,Sacramento River,3,n,18
-2001,Dry,Sacramento River,4,n,9
+2001,Dry,Sacramento River,3,n,10
+2001,Dry,Sacramento River,4,n,8
 2001,Dry,Yolo Bypass,3,n,2
-2002,Dry,Sacramento River,3,n,16
-2002,Dry,Sacramento River,4,n,12
+2002,Dry,Sacramento River,3,n,11
+2002,Dry,Sacramento River,4,n,10
 2002,Dry,Yolo Bypass,3,n,1
 2002,Dry,Yolo Bypass,4,n,1
-2003,Above Normal,Sacramento River,3,n,14
-2003,Above Normal,Sacramento River,4,n,13
+2003,Above Normal,Sacramento River,3,n,10
+2003,Above Normal,Sacramento River,4,n,10
 2003,Above Normal,Yolo Bypass,3,n,1
-2003,Above Normal,Yolo Bypass,4,n,4
-2004,Below Normal,Sacramento River,3,n,13
-2004,Below Normal,Sacramento River,4,n,11
+2003,Above Normal,Yolo Bypass,4,n,3
+2004,Below Normal,Sacramento River,3,n,9
+2004,Below Normal,Sacramento River,4,n,9
 2004,Below Normal,Yolo Bypass,3,n,1
 2004,Below Normal,Yolo Bypass,4,n,3
-2005,Above Normal,Sacramento River,3,n,14
-2005,Above Normal,Sacramento River,4,n,15
+2005,Above Normal,Sacramento River,3,n,10
+2005,Above Normal,Sacramento River,4,n,10
 2005,Above Normal,Yolo Bypass,3,n,3
 2005,Above Normal,Yolo Bypass,4,n,3
-2006,Wet,Sacramento River,3,n,14
-2006,Wet,Sacramento River,4,n,13
+2006,Wet,Sacramento River,3,n,10
+2006,Wet,Sacramento River,4,n,10
 2006,Wet,Yolo Bypass,3,n,2
 2006,Wet,Yolo Bypass,4,n,2
-2007,Dry,Sacramento River,3,n,15
-2007,Dry,Sacramento River,4,n,14
+2007,Dry,Sacramento River,3,n,11
+2007,Dry,Sacramento River,4,n,11
 2007,Dry,Yolo Bypass,3,n,2
 2007,Dry,Yolo Bypass,4,n,2
-2008,Critical,Sacramento River,3,n,14
-2008,Critical,Sacramento River,4,n,20
-2008,Critical,Yolo Bypass,3,n,4
-2008,Critical,Yolo Bypass,4,n,9
-2009,Dry,Sacramento River,3,n,15
-2009,Dry,Sacramento River,4,n,16
-2009,Dry,Yolo Bypass,3,n,6
-2009,Dry,Yolo Bypass,4,n,4
-2010,Below Normal,Sacramento River,3,n,16
-2010,Below Normal,Sacramento River,4,n,17
-2010,Below Normal,Yolo Bypass,3,n,5
-2010,Below Normal,Yolo Bypass,4,n,8
-2011,Wet,Sacramento River,3,n,13
-2011,Wet,Sacramento River,4,n,15
-2011,Wet,Yolo Bypass,3,n,6
-2011,Wet,Yolo Bypass,4,n,6
-2012,Below Normal,Sacramento River,3,n,14
-2012,Below Normal,Sacramento River,4,n,11
-2012,Below Normal,Yolo Bypass,3,n,6
-2012,Below Normal,Yolo Bypass,4,n,7
-2013,Dry,Sacramento River,3,n,15
-2013,Dry,Sacramento River,4,n,16
-2013,Dry,Yolo Bypass,3,n,9
-2013,Dry,Yolo Bypass,4,n,6
-2014,Critical,Sacramento River,3,n,16
-2014,Critical,Sacramento River,4,n,18
-2014,Critical,Yolo Bypass,3,n,9
-2014,Critical,Yolo Bypass,4,n,13
-2015,Critical,Sacramento River,3,n,18
-2015,Critical,Sacramento River,4,n,18
-2015,Critical,Yolo Bypass,3,n,8
-2015,Critical,Yolo Bypass,4,n,11
-2016,Below Normal,Sacramento River,3,n,15
-2016,Below Normal,Sacramento River,4,n,14
-2016,Below Normal,Yolo Bypass,3,n,10
-2016,Below Normal,Yolo Bypass,4,n,17
-2017,Wet,Sacramento River,3,n,57
-2017,Wet,Sacramento River,4,n,27
-2017,Wet,Yolo Bypass,3,n,13
-2017,Wet,Yolo Bypass,4,n,10
-2018,Below Normal,Sacramento River,3,n,71
-2018,Below Normal,Sacramento River,4,n,14
-2018,Below Normal,Yolo Bypass,3,n,51
-2018,Below Normal,Yolo Bypass,4,n,11
-2019,Wet,Sacramento River,3,n,38
-2019,Wet,Sacramento River,4,n,24
-2019,Wet,Yolo Bypass,3,n,52
-2019,Wet,Yolo Bypass,4,n,12
-2020,NA,Sacramento River,3,n,32
-2020,NA,Yolo Bypass,3,n,45
-1968,Below Normal,Sacramento River,3,min_temp,11.3
-1969,Wet,Sacramento River,3,min_temp,9.2
-1970,Wet,Sacramento River,3,min_temp,12.2
-1971,Wet,Sacramento River,3,min_temp,10
-1972,Below Normal,Sacramento River,3,min_temp,12.2
-1975,Wet,Sacramento River,4,min_temp,11
-1976,Critical,Sacramento River,3,min_temp,10
-1976,Critical,Sacramento River,4,min_temp,13
-1977,Critical,Sacramento River,3,min_temp,12
-1977,Critical,Sacramento River,4,min_temp,15
-1978,Above Normal,Sacramento River,3,min_temp,11
-1978,Above Normal,Sacramento River,4,min_temp,13
-1979,Below Normal,Sacramento River,3,min_temp,12
-1979,Below Normal,Sacramento River,4,min_temp,16
-1980,Above Normal,Sacramento River,3,min_temp,11
-1980,Above Normal,Sacramento River,4,min_temp,12
-1981,Dry,Sacramento River,3,min_temp,12
-1981,Dry,Sacramento River,4,min_temp,15
-1982,Wet,Sacramento River,3,min_temp,10
-1982,Wet,Sacramento River,4,min_temp,11
-1983,Wet,Sacramento River,3,min_temp,10
-1983,Wet,Sacramento River,4,min_temp,12
-1984,Wet,Sacramento River,3,min_temp,11
-1984,Wet,Sacramento River,4,min_temp,15
-1985,Dry,Sacramento River,3,min_temp,12
-1985,Dry,Sacramento River,4,min_temp,15
-1986,Wet,Sacramento River,3,min_temp,12
-1986,Wet,Sacramento River,4,min_temp,14
-1987,Dry,Sacramento River,4,min_temp,17
-1988,Critical,Sacramento River,3,min_temp,14
-1988,Critical,Sacramento River,4,min_temp,11.1111116409
-1989,Dry,Sacramento River,3,min_temp,12
-1989,Dry,Sacramento River,4,min_temp,13.6111121178
-1990,Critical,Sacramento River,3,min_temp,11.6666679382
-1990,Critical,Sacramento River,4,min_temp,17
-1991,Critical,Sacramento River,3,min_temp,11.4
-1991,Critical,Sacramento River,4,min_temp,15
-1992,Critical,Sacramento River,3,min_temp,12.2222232819
-1992,Critical,Sacramento River,4,min_temp,17
-1993,Above Normal,Sacramento River,3,min_temp,9.84722316265
-1993,Above Normal,Sacramento River,4,min_temp,12.2777776718
-1993,Above Normal,Yolo Bypass,4,min_temp,15.8
-1994,Critical,Sacramento River,3,min_temp,12.9166674614
-1994,Critical,Sacramento River,4,min_temp,0
-1994,Critical,Yolo Bypass,4,min_temp,15.6
+2008,Critical,Sacramento River,3,n,10
+2008,Critical,Sacramento River,4,n,14
+2008,Critical,Yolo Bypass,3,n,2
+2008,Critical,Yolo Bypass,4,n,5
+2009,Dry,Sacramento River,3,n,9
+2009,Dry,Sacramento River,4,n,11
+2009,Dry,Yolo Bypass,3,n,4
+2009,Dry,Yolo Bypass,4,n,2
+2010,Below Normal,Sacramento River,3,n,10
+2010,Below Normal,Sacramento River,4,n,10
+2010,Below Normal,Yolo Bypass,3,n,2
+2010,Below Normal,Yolo Bypass,4,n,4
+2011,Wet,Sacramento River,3,n,7
+2011,Wet,Sacramento River,4,n,9
+2011,Wet,Yolo Bypass,3,n,3
+2011,Wet,Yolo Bypass,4,n,3
+2012,Below Normal,Sacramento River,3,n,11
+2012,Below Normal,Sacramento River,4,n,7
+2012,Below Normal,Yolo Bypass,3,n,3
+2012,Below Normal,Yolo Bypass,4,n,3
+2013,Dry,Sacramento River,3,n,10
+2013,Dry,Sacramento River,4,n,11
+2013,Dry,Yolo Bypass,3,n,5
+2013,Dry,Yolo Bypass,4,n,3
+2014,Critical,Sacramento River,3,n,9
+2014,Critical,Sacramento River,4,n,10
+2014,Critical,Yolo Bypass,3,n,4
+2014,Critical,Yolo Bypass,4,n,4
+2015,Critical,Sacramento River,3,n,11
+2015,Critical,Sacramento River,4,n,13
+2015,Critical,Yolo Bypass,3,n,3
+2015,Critical,Yolo Bypass,4,n,4
+2016,Below Normal,Sacramento River,3,n,10
+2016,Below Normal,Sacramento River,4,n,9
+2016,Below Normal,Yolo Bypass,3,n,4
+2016,Below Normal,Yolo Bypass,4,n,4
+2017,Wet,Sacramento River,3,n,21
+2017,Wet,Sacramento River,4,n,19
+2017,Wet,Yolo Bypass,3,n,5
+2017,Wet,Yolo Bypass,4,n,3
+2018,Below Normal,Sacramento River,3,n,20
+2018,Below Normal,Sacramento River,4,n,9
+2018,Below Normal,Yolo Bypass,3,n,8
+2018,Below Normal,Yolo Bypass,4,n,4
+2019,Wet,Sacramento River,3,n,16
+2019,Wet,Sacramento River,4,n,16
+2019,Wet,Yolo Bypass,3,n,10
+2019,Wet,Yolo Bypass,4,n,4
+2020,NA,Sacramento River,3,n,9
+2020,NA,Yolo Bypass,3,n,9
 1995,Wet,Sacramento River,3,min_temp,9.86111211777
-1995,Wet,Sacramento River,4,min_temp,10.7407415178
+1995,Wet,Sacramento River,4,min_temp,11.2944455147
 1995,Wet,Yolo Bypass,3,min_temp,12.6
-1996,Wet,Sacramento River,3,min_temp,10.5
+1996,Wet,Sacramento River,3,min_temp,10.55
 1996,Wet,Sacramento River,4,min_temp,0
 1996,Wet,Yolo Bypass,4,min_temp,16.2
 1997,Wet,Sacramento River,3,min_temp,9.66999998093
@@ -339,12 +204,12 @@ water_year,water_year_type,Region,Month,stat,value
 1997,Wet,Yolo Bypass,3,min_temp,11.5
 1997,Wet,Yolo Bypass,4,min_temp,18.2
 1998,Wet,Sacramento River,3,min_temp,10.25
-1998,Wet,Sacramento River,4,min_temp,11.6
+1998,Wet,Sacramento River,4,min_temp,11.9444443385
 1999,Wet,Sacramento River,3,min_temp,8.73333337572
 1999,Wet,Sacramento River,4,min_temp,10.5500001907
 1999,Wet,Yolo Bypass,3,min_temp,11.9
 1999,Wet,Yolo Bypass,4,min_temp,14.2
-2000,Above Normal,Sacramento River,3,min_temp,10.0300000191
+2000,Above Normal,Sacramento River,3,min_temp,10.5
 2000,Above Normal,Sacramento River,4,min_temp,0
 2000,Above Normal,Yolo Bypass,3,min_temp,10.8
 2000,Above Normal,Yolo Bypass,4,min_temp,16.3
@@ -355,16 +220,16 @@ water_year,water_year_type,Region,Month,stat,value
 2002,Dry,Sacramento River,4,min_temp,0
 2002,Dry,Yolo Bypass,3,min_temp,12.5
 2002,Dry,Yolo Bypass,4,min_temp,15.5
-2003,Above Normal,Sacramento River,3,min_temp,10.9100000381
+2003,Above Normal,Sacramento River,3,min_temp,11.1399999619
 2003,Above Normal,Sacramento River,4,min_temp,13.1
 2003,Above Normal,Yolo Bypass,3,min_temp,0
 2003,Above Normal,Yolo Bypass,4,min_temp,14.1
-2004,Below Normal,Sacramento River,3,min_temp,10.6
+2004,Below Normal,Sacramento River,3,min_temp,10.649999999999999
 2004,Below Normal,Sacramento River,4,min_temp,14.8
 2004,Below Normal,Yolo Bypass,3,min_temp,14.9
 2004,Below Normal,Yolo Bypass,4,min_temp,14.7
 2005,Above Normal,Sacramento River,3,min_temp,12
-2005,Above Normal,Sacramento River,4,min_temp,13.3555555344
+2005,Above Normal,Sacramento River,4,min_temp,13.885185178133334
 2005,Above Normal,Yolo Bypass,3,min_temp,13.6
 2005,Above Normal,Yolo Bypass,4,min_temp,15.2
 2006,Wet,Sacramento River,3,min_temp,9.4
@@ -372,109 +237,64 @@ water_year,water_year_type,Region,Month,stat,value
 2006,Wet,Yolo Bypass,3,min_temp,11.2
 2006,Wet,Yolo Bypass,4,min_temp,12.9
 2007,Dry,Sacramento River,3,min_temp,9.38999977112
-2007,Dry,Sacramento River,4,min_temp,15.3
+2007,Dry,Sacramento River,4,min_temp,15.475000000000001
 2007,Dry,Yolo Bypass,3,min_temp,12.3
 2007,Dry,Yolo Bypass,4,min_temp,16.3
 2008,Critical,Sacramento River,3,min_temp,11
-2008,Critical,Sacramento River,4,min_temp,13.75
-2008,Critical,Yolo Bypass,3,min_temp,12.5
+2008,Critical,Sacramento River,4,min_temp,14.05
+2008,Critical,Yolo Bypass,3,min_temp,12.649999999999999
 2008,Critical,Yolo Bypass,4,min_temp,14.6
-2009,Dry,Sacramento River,3,min_temp,10.9
+2009,Dry,Sacramento River,3,min_temp,10.95
 2009,Dry,Sacramento River,4,min_temp,13.05
 2009,Dry,Yolo Bypass,3,min_temp,12.4
-2009,Dry,Yolo Bypass,4,min_temp,16.7
+2009,Dry,Yolo Bypass,4,min_temp,16.799999999999997
 2010,Below Normal,Sacramento River,3,min_temp,9
 2010,Below Normal,Sacramento River,4,min_temp,0
-2010,Below Normal,Yolo Bypass,3,min_temp,12.9
-2010,Below Normal,Yolo Bypass,4,min_temp,13.6
-2011,Wet,Sacramento River,3,min_temp,9.3
+2010,Below Normal,Yolo Bypass,3,min_temp,13.9
+2010,Below Normal,Yolo Bypass,4,min_temp,13.866666666666667
+2011,Wet,Sacramento River,3,min_temp,9.38999967575
 2011,Wet,Sacramento River,4,min_temp,11.8599999428
-2011,Wet,Yolo Bypass,3,min_temp,10.3
+2011,Wet,Yolo Bypass,3,min_temp,11.066666666666666
 2011,Wet,Yolo Bypass,4,min_temp,14.6
-2012,Below Normal,Sacramento River,3,min_temp,10.8
-2012,Below Normal,Sacramento River,4,min_temp,13
-2012,Below Normal,Yolo Bypass,3,min_temp,11.1
+2012,Below Normal,Sacramento River,3,min_temp,11.5899999619
+2012,Below Normal,Sacramento River,4,min_temp,13.1
+2012,Below Normal,Yolo Bypass,3,min_temp,11.5
 2012,Below Normal,Yolo Bypass,4,min_temp,14.1
 2013,Dry,Sacramento River,3,min_temp,12.3199998856
-2013,Dry,Sacramento River,4,min_temp,15.4
+2013,Dry,Sacramento River,4,min_temp,15.5600000381
 2013,Dry,Yolo Bypass,3,min_temp,12.2
-2013,Dry,Yolo Bypass,4,min_temp,16
+2013,Dry,Yolo Bypass,4,min_temp,16.05
 2014,Critical,Sacramento River,3,min_temp,0
-2014,Critical,Sacramento River,4,min_temp,14.4
+2014,Critical,Sacramento River,4,min_temp,14.4299993515
 2014,Critical,Yolo Bypass,3,min_temp,13.8
-2014,Critical,Yolo Bypass,4,min_temp,14.6
-2015,Critical,Sacramento River,3,min_temp,0
-2015,Critical,Sacramento River,4,min_temp,0
-2015,Critical,Yolo Bypass,3,min_temp,14.2099990845
-2015,Critical,Yolo Bypass,4,min_temp,15.6
+2014,Critical,Yolo Bypass,4,min_temp,14.866666666666667
+2015,Critical,Sacramento River,3,min_temp,12.34399997712
+2015,Critical,Sacramento River,4,min_temp,10.7
+2015,Critical,Yolo Bypass,3,min_temp,15.24399929048
+2015,Critical,Yolo Bypass,4,min_temp,16.05
 2016,Below Normal,Sacramento River,3,min_temp,0
-2016,Below Normal,Sacramento River,4,min_temp,15.8
-2016,Below Normal,Yolo Bypass,3,min_temp,13.6
-2016,Below Normal,Yolo Bypass,4,min_temp,16.8
+2016,Below Normal,Sacramento River,4,min_temp,16.0200000763
+2016,Below Normal,Yolo Bypass,3,min_temp,13.8
+2016,Below Normal,Yolo Bypass,4,min_temp,17.6
 2017,Wet,Sacramento River,3,min_temp,0
 2017,Wet,Sacramento River,4,min_temp,0
 2017,Wet,Yolo Bypass,3,min_temp,11.8
-2017,Wet,Yolo Bypass,4,min_temp,15.7
+2017,Wet,Yolo Bypass,4,min_temp,15.95
 2018,Below Normal,Sacramento River,3,min_temp,0
-2018,Below Normal,Sacramento River,4,min_temp,12.0100000381
-2018,Below Normal,Yolo Bypass,3,min_temp,0
-2018,Below Normal,Yolo Bypass,4,min_temp,15.4
+2018,Below Normal,Sacramento River,4,min_temp,13.37000001905
+2018,Below Normal,Yolo Bypass,3,min_temp,10.099230857263077
+2018,Below Normal,Yolo Bypass,4,min_temp,16.6
 2019,Wet,Sacramento River,3,min_temp,0
 2019,Wet,Sacramento River,4,min_temp,12.4399999619
-2019,Wet,Yolo Bypass,3,min_temp,0
-2019,Wet,Yolo Bypass,4,min_temp,14.6
-2020,NA,Sacramento River,3,min_temp,0
-2020,NA,Yolo Bypass,3,min_temp,0
-1968,Below Normal,Sacramento River,3,max_temp,11.5
-1969,Wet,Sacramento River,3,max_temp,9.6
-1970,Wet,Sacramento River,3,max_temp,12.2
-1971,Wet,Sacramento River,3,max_temp,10
-1972,Below Normal,Sacramento River,3,max_temp,12.6
-1975,Wet,Sacramento River,4,max_temp,12
-1976,Critical,Sacramento River,3,max_temp,11
-1976,Critical,Sacramento River,4,max_temp,14
-1977,Critical,Sacramento River,3,max_temp,12
-1977,Critical,Sacramento River,4,max_temp,19
-1978,Above Normal,Sacramento River,3,max_temp,13
-1978,Above Normal,Sacramento River,4,max_temp,16
-1979,Below Normal,Sacramento River,3,max_temp,14
-1979,Below Normal,Sacramento River,4,max_temp,16
-1980,Above Normal,Sacramento River,3,max_temp,12
-1980,Above Normal,Sacramento River,4,max_temp,14.2
-1981,Dry,Sacramento River,3,max_temp,12
-1981,Dry,Sacramento River,4,max_temp,19
-1982,Wet,Sacramento River,3,max_temp,11
-1982,Wet,Sacramento River,4,max_temp,11
-1983,Wet,Sacramento River,3,max_temp,10
-1983,Wet,Sacramento River,4,max_temp,12
-1984,Wet,Sacramento River,3,max_temp,11
-1984,Wet,Sacramento River,4,max_temp,15
-1985,Dry,Sacramento River,3,max_temp,12
-1985,Dry,Sacramento River,4,max_temp,19
-1986,Wet,Sacramento River,3,max_temp,12
-1986,Wet,Sacramento River,4,max_temp,14
-1987,Dry,Sacramento River,4,max_temp,17
-1988,Critical,Sacramento River,3,max_temp,15
-1988,Critical,Sacramento River,4,max_temp,19
-1989,Dry,Sacramento River,3,max_temp,12.69
-1989,Dry,Sacramento River,4,max_temp,18
-1990,Critical,Sacramento River,3,max_temp,15.555557251
-1990,Critical,Sacramento River,4,max_temp,18
-1991,Critical,Sacramento River,3,max_temp,13
-1991,Critical,Sacramento River,4,max_temp,17.0000011444
-1992,Critical,Sacramento River,3,max_temp,16
-1992,Critical,Sacramento River,4,max_temp,18.25
-1993,Above Normal,Sacramento River,3,max_temp,15.6
-1993,Above Normal,Sacramento River,4,max_temp,16.4197544522
-1993,Above Normal,Yolo Bypass,4,max_temp,15.8
-1994,Critical,Sacramento River,3,max_temp,15.0000009537
-1994,Critical,Sacramento River,4,max_temp,19.1111131668
-1994,Critical,Yolo Bypass,4,max_temp,15.6
-1995,Wet,Sacramento River,3,max_temp,12
-1995,Wet,Sacramento River,4,max_temp,15.7
+2019,Wet,Yolo Bypass,3,min_temp,8.328571319571429
+2019,Wet,Yolo Bypass,4,min_temp,15.733333333333334
+2020,NA,Sacramento River,3,min_temp,9.1333332062
+2020,NA,Yolo Bypass,3,min_temp,10.525000095374999
+1995,Wet,Sacramento River,3,max_temp,11.583333333333334
+1995,Wet,Sacramento River,4,max_temp,14.811111609133333
 1995,Wet,Yolo Bypass,3,max_temp,12.6
 1996,Wet,Sacramento River,3,max_temp,14.0277789831
-1996,Wet,Sacramento River,4,max_temp,15.9
+1996,Wet,Sacramento River,4,max_temp,15.8888904572
 1996,Wet,Yolo Bypass,4,max_temp,16.2
 1997,Wet,Sacramento River,3,max_temp,14.9499998093
 1997,Wet,Sacramento River,4,max_temp,18.61
@@ -483,7 +303,7 @@ water_year,water_year_type,Region,Month,stat,value
 1998,Wet,Sacramento River,3,max_temp,13.8666664759
 1998,Wet,Sacramento River,4,max_temp,14.6900000572
 1999,Wet,Sacramento River,3,max_temp,12.1750000715
-1999,Wet,Sacramento River,4,max_temp,16
+1999,Wet,Sacramento River,4,max_temp,15.95
 1999,Wet,Yolo Bypass,3,max_temp,11.9
 1999,Wet,Yolo Bypass,4,max_temp,14.5
 2000,Above Normal,Sacramento River,3,max_temp,13.4
@@ -500,12 +320,12 @@ water_year,water_year_type,Region,Month,stat,value
 2003,Above Normal,Sacramento River,3,max_temp,15.2
 2003,Above Normal,Sacramento River,4,max_temp,15.55
 2003,Above Normal,Yolo Bypass,3,max_temp,0
-2003,Above Normal,Yolo Bypass,4,max_temp,15.2
+2003,Above Normal,Yolo Bypass,4,max_temp,15.1
 2004,Below Normal,Sacramento River,3,max_temp,16.65
 2004,Below Normal,Sacramento River,4,max_temp,18.6250004768
 2004,Below Normal,Yolo Bypass,3,max_temp,14.9
 2004,Below Normal,Yolo Bypass,4,max_temp,18
-2005,Above Normal,Sacramento River,3,max_temp,16
+2005,Above Normal,Sacramento River,3,max_temp,15.85
 2005,Above Normal,Sacramento River,4,max_temp,16.82
 2005,Above Normal,Yolo Bypass,3,max_temp,14
 2005,Above Normal,Yolo Bypass,4,max_temp,16.8
@@ -518,242 +338,152 @@ water_year,water_year_type,Region,Month,stat,value
 2007,Dry,Yolo Bypass,3,max_temp,15.5
 2007,Dry,Yolo Bypass,4,max_temp,17.1
 2008,Critical,Sacramento River,3,max_temp,13.9
-2008,Critical,Sacramento River,4,max_temp,17.2
-2008,Critical,Yolo Bypass,3,max_temp,13.1
-2008,Critical,Yolo Bypass,4,max_temp,17.7
-2009,Dry,Sacramento River,3,max_temp,15
-2009,Dry,Sacramento River,4,max_temp,18.9
-2009,Dry,Yolo Bypass,3,max_temp,14.5
-2009,Dry,Yolo Bypass,4,max_temp,21.5
+2008,Critical,Sacramento River,4,max_temp,17.049999999999997
+2008,Critical,Yolo Bypass,3,max_temp,12.8
+2008,Critical,Yolo Bypass,4,max_temp,17.566666666666666
+2009,Dry,Sacramento River,3,max_temp,14.8
+2009,Dry,Sacramento River,4,max_temp,18.45
+2009,Dry,Yolo Bypass,3,max_temp,14.3
+2009,Dry,Yolo Bypass,4,max_temp,21.05
 2010,Below Normal,Sacramento River,3,max_temp,15.78
-2010,Below Normal,Sacramento River,4,max_temp,16.9
-2010,Below Normal,Yolo Bypass,3,max_temp,15.8
-2010,Below Normal,Yolo Bypass,4,max_temp,18.6
-2011,Wet,Sacramento River,3,max_temp,12.4
-2011,Wet,Sacramento River,4,max_temp,14.7
-2011,Wet,Yolo Bypass,3,max_temp,15.7
-2011,Wet,Yolo Bypass,4,max_temp,16.8
+2010,Below Normal,Sacramento River,4,max_temp,16.85
+2010,Below Normal,Yolo Bypass,3,max_temp,15.566666666666666
+2010,Below Normal,Yolo Bypass,4,max_temp,18.4
+2011,Wet,Sacramento River,3,max_temp,12.209999895100001
+2011,Wet,Sacramento River,4,max_temp,13.8
+2011,Wet,Yolo Bypass,3,max_temp,15.1
+2011,Wet,Yolo Bypass,4,max_temp,15.850000000000001
 2012,Below Normal,Sacramento River,3,max_temp,13.18
 2012,Below Normal,Sacramento River,4,max_temp,19.4
-2012,Below Normal,Yolo Bypass,3,max_temp,14.5
-2012,Below Normal,Yolo Bypass,4,max_temp,19.1
-2013,Dry,Sacramento River,3,max_temp,15.61
+2012,Below Normal,Yolo Bypass,3,max_temp,14.3
+2012,Below Normal,Yolo Bypass,4,max_temp,19
+2013,Dry,Sacramento River,3,max_temp,15.135000066749999
 2013,Dry,Sacramento River,4,max_temp,19.2400000572
 2013,Dry,Yolo Bypass,3,max_temp,15.8899993896
-2013,Dry,Yolo Bypass,4,max_temp,18.1
+2013,Dry,Yolo Bypass,4,max_temp,17.833333333333332
 2014,Critical,Sacramento River,3,max_temp,15.7599999428
-2014,Critical,Sacramento River,4,max_temp,20.5
+2014,Critical,Sacramento River,4,max_temp,20.065000057200002
 2014,Critical,Yolo Bypass,3,max_temp,16.3
-2014,Critical,Yolo Bypass,4,max_temp,19.4699993134
-2015,Critical,Sacramento River,3,max_temp,19.7
-2015,Critical,Sacramento River,4,max_temp,21.4
-2015,Critical,Yolo Bypass,3,max_temp,18.1
-2015,Critical,Yolo Bypass,4,max_temp,21.109998703
+2014,Critical,Yolo Bypass,4,max_temp,18.033333333333335
+2015,Critical,Sacramento River,3,max_temp,19.4
+2015,Critical,Sacramento River,4,max_temp,20.1600000381
+2015,Critical,Yolo Bypass,3,max_temp,17.950000000000003
+2015,Critical,Yolo Bypass,4,max_temp,19.766666666666666
 2016,Below Normal,Sacramento River,3,max_temp,14
 2016,Below Normal,Sacramento River,4,max_temp,17.6
-2016,Below Normal,Yolo Bypass,3,max_temp,16.7
-2016,Below Normal,Yolo Bypass,4,max_temp,20.4799995422
-2017,Wet,Sacramento River,3,max_temp,14.23
-2017,Wet,Sacramento River,4,max_temp,15.5
-2017,Wet,Yolo Bypass,3,max_temp,16.9
-2017,Wet,Yolo Bypass,4,max_temp,18.52
-2018,Below Normal,Sacramento River,3,max_temp,13.8000001907
-2018,Below Normal,Sacramento River,4,max_temp,18.6
-2018,Below Normal,Yolo Bypass,3,max_temp,14.5
-2018,Below Normal,Yolo Bypass,4,max_temp,18.9
-2019,Wet,Sacramento River,3,max_temp,14.5
-2019,Wet,Sacramento River,4,max_temp,17.4
-2019,Wet,Yolo Bypass,3,max_temp,17.1000003815
-2019,Wet,Yolo Bypass,4,max_temp,22.58
-2020,NA,Sacramento River,3,max_temp,14.6
-2020,NA,Yolo Bypass,3,max_temp,15.1000003815
-1968,Below Normal,Sacramento River,3,avg_temp,11.4
-1969,Wet,Sacramento River,3,avg_temp,9.399999999999999
-1970,Wet,Sacramento River,3,avg_temp,12.2
-1971,Wet,Sacramento River,3,avg_temp,10
-1972,Below Normal,Sacramento River,3,avg_temp,12.399999999999999
-1975,Wet,Sacramento River,4,avg_temp,11.5
-1976,Critical,Sacramento River,3,avg_temp,10.5
-1976,Critical,Sacramento River,4,avg_temp,13.5
-1977,Critical,Sacramento River,3,avg_temp,12
-1977,Critical,Sacramento River,4,avg_temp,17
-1978,Above Normal,Sacramento River,3,avg_temp,12.22
-1978,Above Normal,Sacramento River,4,avg_temp,14.5
-1979,Below Normal,Sacramento River,3,avg_temp,13
-1979,Below Normal,Sacramento River,4,avg_temp,16
-1980,Above Normal,Sacramento River,3,avg_temp,11.5
-1980,Above Normal,Sacramento River,4,avg_temp,13.1
-1981,Dry,Sacramento River,3,avg_temp,12
-1981,Dry,Sacramento River,4,avg_temp,17
-1982,Wet,Sacramento River,3,avg_temp,10.5
-1982,Wet,Sacramento River,4,avg_temp,11
-1983,Wet,Sacramento River,3,avg_temp,10
-1983,Wet,Sacramento River,4,avg_temp,12
-1984,Wet,Sacramento River,3,avg_temp,11
-1984,Wet,Sacramento River,4,avg_temp,15
-1985,Dry,Sacramento River,3,avg_temp,12
-1985,Dry,Sacramento River,4,avg_temp,17
-1986,Wet,Sacramento River,3,avg_temp,12
-1986,Wet,Sacramento River,4,avg_temp,14
-1987,Dry,Sacramento River,4,avg_temp,17
-1988,Critical,Sacramento River,3,avg_temp,14.5
-1988,Critical,Sacramento River,4,avg_temp,13.9595968073
-1989,Dry,Sacramento River,3,avg_temp,12.344999999999999
-1989,Dry,Sacramento River,4,avg_temp,16.4629635811
-1990,Critical,Sacramento River,3,avg_temp,12.666667806703447
-1990,Critical,Sacramento River,4,avg_temp,17.5
-1991,Critical,Sacramento River,3,avg_temp,11.95076923076923
-1991,Critical,Sacramento River,4,avg_temp,16.16666727065
-1992,Critical,Sacramento River,3,avg_temp,14.15095113838
-1992,Critical,Sacramento River,4,avg_temp,17.75
-1993,Above Normal,Sacramento River,3,avg_temp,13.617868504322917
-1993,Above Normal,Sacramento River,4,avg_temp,13.939020491540001
-1993,Above Normal,Yolo Bypass,4,avg_temp,15.8
-1994,Critical,Sacramento River,3,avg_temp,14.23020910621875
-1994,Critical,Sacramento River,4,avg_temp,15.199708190721053
-1994,Critical,Yolo Bypass,4,avg_temp,15.6
-1995,Wet,Sacramento River,3,avg_temp,11.120111434304667
-1995,Wet,Sacramento River,4,avg_temp,12.987112378742857
-1995,Wet,Yolo Bypass,3,avg_temp,12.6
-1996,Wet,Sacramento River,3,avg_temp,11.948554614291304
-1996,Wet,Sacramento River,4,avg_temp,13.053087165622221
-1996,Wet,Yolo Bypass,4,avg_temp,16.2
-1997,Wet,Sacramento River,3,avg_temp,11.6807142339505
-1997,Wet,Sacramento River,4,avg_temp,16.58300696326154
-1997,Wet,Yolo Bypass,3,avg_temp,11.5
-1997,Wet,Yolo Bypass,4,avg_temp,18.2
-1998,Wet,Sacramento River,3,avg_temp,11.412061414794737
-1998,Wet,Sacramento River,4,avg_temp,12.56022222096
-1999,Wet,Sacramento River,3,avg_temp,10.4809643051575
-1999,Wet,Sacramento River,4,avg_temp,13.61937505005
-1999,Wet,Yolo Bypass,3,avg_temp,11.9
-1999,Wet,Yolo Bypass,4,avg_temp,14.35
-2000,Above Normal,Sacramento River,3,avg_temp,11.4337500155
-2000,Above Normal,Sacramento River,4,avg_temp,13.86842857634
-2000,Above Normal,Yolo Bypass,3,avg_temp,12
-2000,Above Normal,Yolo Bypass,4,avg_temp,16.3
-2001,Dry,Sacramento River,3,avg_temp,9.783174622251668
-2001,Dry,Sacramento River,4,avg_temp,14.84111111958889
-2001,Dry,Yolo Bypass,3,avg_temp,15.05
-2002,Dry,Sacramento River,3,avg_temp,12.93187496423125
-2002,Dry,Sacramento River,4,avg_temp,15.779999963441666
-2002,Dry,Yolo Bypass,3,avg_temp,12.5
-2002,Dry,Yolo Bypass,4,avg_temp,15.5
-2003,Above Normal,Sacramento River,3,avg_temp,13.210714292521429
-2003,Above Normal,Sacramento River,4,avg_temp,14.807692300353846
-2003,Above Normal,Yolo Bypass,3,avg_temp,0
-2003,Above Normal,Yolo Bypass,4,avg_temp,14.825
-2004,Below Normal,Sacramento River,3,avg_temp,13.206153840284616
-2004,Below Normal,Sacramento River,4,avg_temp,15.812272756745454
-2004,Below Normal,Yolo Bypass,3,avg_temp,14.9
-2004,Below Normal,Yolo Bypass,4,avg_temp,16.2
-2005,Above Normal,Sacramento River,3,avg_temp,13.63000000545
-2005,Above Normal,Sacramento River,4,avg_temp,15.196465591793334
-2005,Above Normal,Yolo Bypass,3,avg_temp,13.766666666666666
-2005,Above Normal,Yolo Bypass,4,avg_temp,15.966666666666667
-2006,Wet,Sacramento River,3,avg_temp,10.008571454453572
-2006,Wet,Sacramento River,4,avg_temp,12.217457245561539
-2006,Wet,Yolo Bypass,3,avg_temp,11.35
-2006,Wet,Yolo Bypass,4,avg_temp,13.05
-2007,Dry,Sacramento River,3,avg_temp,13.053333316808
-2007,Dry,Sacramento River,4,avg_temp,16.51792073622857
-2007,Dry,Yolo Bypass,3,avg_temp,13.9
-2007,Dry,Yolo Bypass,4,avg_temp,16.700000000000003
-2008,Critical,Sacramento River,3,avg_temp,12.635714285714286
-2008,Critical,Sacramento River,4,avg_temp,15.36
-2008,Critical,Yolo Bypass,3,avg_temp,12.725
-2008,Critical,Yolo Bypass,4,avg_temp,16.2
-2009,Dry,Sacramento River,3,avg_temp,12.84
-2009,Dry,Sacramento River,4,avg_temp,15.039489596425
-2009,Dry,Yolo Bypass,3,avg_temp,13.766666666666666
-2009,Dry,Yolo Bypass,4,avg_temp,18.925
-2010,Below Normal,Sacramento River,3,avg_temp,12.0925
-2010,Below Normal,Sacramento River,4,avg_temp,12.916274512047059
-2010,Below Normal,Yolo Bypass,3,avg_temp,14.9
-2010,Below Normal,Yolo Bypass,4,avg_temp,15.4
-2011,Wet,Sacramento River,3,avg_temp,10.95769226073923
-2011,Wet,Sacramento River,4,avg_temp,13.26622223536
-2011,Wet,Yolo Bypass,3,avg_temp,12.7
-2011,Wet,Yolo Bypass,4,avg_temp,15.533333333333333
-2012,Below Normal,Sacramento River,3,avg_temp,12.031428600035714
-2012,Below Normal,Sacramento River,4,avg_temp,14.739090910827272
-2012,Below Normal,Yolo Bypass,3,avg_temp,12.633333333333333
-2012,Below Normal,Yolo Bypass,4,avg_temp,15.67142857142857
-2013,Dry,Sacramento River,3,avg_temp,13.65066664632
-2013,Dry,Sacramento River,4,avg_temp,16.9918749976125
-2013,Dry,Yolo Bypass,3,avg_temp,14.3244442198
-2013,Dry,Yolo Bypass,4,avg_temp,17
-2014,Critical,Sacramento River,3,avg_temp,12.66187501086875
-2014,Critical,Sacramento River,4,avg_temp,17.538333301538888
-2014,Critical,Yolo Bypass,3,avg_temp,14.703332877444444
-2014,Critical,Yolo Bypass,4,avg_temp,17.0899996244
-2015,Critical,Sacramento River,3,avg_temp,15.276111125944444
-2015,Critical,Sacramento River,4,avg_temp,15.897222119438888
-2015,Critical,Yolo Bypass,3,avg_temp,15.92749955655
-2015,Critical,Yolo Bypass,4,avg_temp,18.13818137429091
-2016,Below Normal,Sacramento River,3,avg_temp,9.64088880468
-2016,Below Normal,Sacramento River,4,avg_temp,16.478376552657142
-2016,Below Normal,Yolo Bypass,3,avg_temp,15.44399965286
-2016,Below Normal,Yolo Bypass,4,avg_temp,18.084117216211766
-2017,Wet,Sacramento River,3,avg_temp,10.735614036422806
-2017,Wet,Sacramento River,4,avg_temp,12.866666653951851
-2017,Wet,Yolo Bypass,3,avg_temp,14.54769233703846
-2017,Wet,Yolo Bypass,4,avg_temp,16.899
-2018,Below Normal,Sacramento River,3,avg_temp,11.309014105728169
-2018,Below Normal,Sacramento River,4,avg_temp,15.527142862585714
-2018,Below Normal,Yolo Bypass,3,avg_temp,11.64490196452
-2018,Below Normal,Yolo Bypass,4,avg_temp,17.21272727272727
-2019,Wet,Sacramento River,3,avg_temp,10.102631605046579
-2019,Wet,Sacramento River,4,avg_temp,14.4570833691
-2019,Wet,Yolo Bypass,3,avg_temp,12.279038435859615
-2019,Wet,Yolo Bypass,4,avg_temp,18.9975
-2020,NA,Sacramento River,3,avg_temp,12.40000005365
-2020,NA,Yolo Bypass,3,avg_temp,12.52000006359111
-1968,Below Normal,Sacramento River,3,first_day_exceeded,NA
-1969,Wet,Sacramento River,3,first_day_exceeded,NA
-1970,Wet,Sacramento River,3,first_day_exceeded,NA
-1971,Wet,Sacramento River,3,first_day_exceeded,NA
-1972,Below Normal,Sacramento River,3,first_day_exceeded,NA
-1975,Wet,Sacramento River,4,first_day_exceeded,NA
-1976,Critical,Sacramento River,3,first_day_exceeded,NA
-1976,Critical,Sacramento River,4,first_day_exceeded,NA
-1977,Critical,Sacramento River,3,first_day_exceeded,NA
-1977,Critical,Sacramento River,4,first_day_exceeded,12
-1978,Above Normal,Sacramento River,3,first_day_exceeded,NA
-1978,Above Normal,Sacramento River,4,first_day_exceeded,NA
-1979,Below Normal,Sacramento River,3,first_day_exceeded,NA
-1979,Below Normal,Sacramento River,4,first_day_exceeded,NA
-1980,Above Normal,Sacramento River,3,first_day_exceeded,NA
-1980,Above Normal,Sacramento River,4,first_day_exceeded,NA
-1981,Dry,Sacramento River,3,first_day_exceeded,NA
-1981,Dry,Sacramento River,4,first_day_exceeded,29
-1982,Wet,Sacramento River,3,first_day_exceeded,NA
-1982,Wet,Sacramento River,4,first_day_exceeded,NA
-1983,Wet,Sacramento River,3,first_day_exceeded,NA
-1983,Wet,Sacramento River,4,first_day_exceeded,NA
-1984,Wet,Sacramento River,3,first_day_exceeded,NA
-1984,Wet,Sacramento River,4,first_day_exceeded,NA
-1985,Dry,Sacramento River,3,first_day_exceeded,NA
-1985,Dry,Sacramento River,4,first_day_exceeded,16
-1986,Wet,Sacramento River,3,first_day_exceeded,NA
-1986,Wet,Sacramento River,4,first_day_exceeded,NA
-1987,Dry,Sacramento River,4,first_day_exceeded,NA
-1988,Critical,Sacramento River,3,first_day_exceeded,NA
-1988,Critical,Sacramento River,4,first_day_exceeded,12
-1989,Dry,Sacramento River,3,first_day_exceeded,NA
-1989,Dry,Sacramento River,4,first_day_exceeded,12
-1990,Critical,Sacramento River,3,first_day_exceeded,21
-1990,Critical,Sacramento River,4,first_day_exceeded,18
-1991,Critical,Sacramento River,3,first_day_exceeded,NA
-1991,Critical,Sacramento River,4,first_day_exceeded,24
-1992,Critical,Sacramento River,3,first_day_exceeded,18
-1992,Critical,Sacramento River,4,first_day_exceeded,7
-1993,Above Normal,Sacramento River,3,first_day_exceeded,12
-1993,Above Normal,Sacramento River,4,first_day_exceeded,NA
-1993,Above Normal,Yolo Bypass,4,first_day_exceeded,NA
-1994,Critical,Sacramento River,3,first_day_exceeded,28
-1994,Critical,Sacramento River,4,first_day_exceeded,21
-1994,Critical,Yolo Bypass,4,first_day_exceeded,NA
+2016,Below Normal,Yolo Bypass,3,max_temp,16.2
+2016,Below Normal,Yolo Bypass,4,max_temp,18.361666043583334
+2017,Wet,Sacramento River,3,max_temp,13.2950000286
+2017,Wet,Sacramento River,4,max_temp,15.0475
+2017,Wet,Yolo Bypass,3,max_temp,16.299999999999997
+2017,Wet,Yolo Bypass,4,max_temp,17.200000000000003
+2018,Below Normal,Sacramento River,3,max_temp,13.3800000763
+2018,Below Normal,Sacramento River,4,max_temp,18.450000000000003
+2018,Below Normal,Yolo Bypass,3,max_temp,13.942857170085714
+2018,Below Normal,Yolo Bypass,4,max_temp,18.266666666666666
+2019,Wet,Sacramento River,3,max_temp,13.5725
+2019,Wet,Sacramento River,4,max_temp,17.2
+2019,Wet,Yolo Bypass,3,max_temp,15.233333206166666
+2019,Wet,Yolo Bypass,4,max_temp,21.754
+2020,NA,Sacramento River,3,max_temp,14.333333333333334
+2020,NA,Yolo Bypass,3,max_temp,14.816666921
+1995,Wet,Sacramento River,3,mean_temp,10.822738625443334
+1995,Wet,Sacramento River,4,mean_temp,12.891557453064761
+1995,Wet,Yolo Bypass,3,mean_temp,12.6
+1996,Wet,Sacramento River,3,mean_temp,12.307257025749307
+1996,Wet,Sacramento River,4,mean_temp,12.930209138990625
+1996,Wet,Yolo Bypass,4,mean_temp,16.2
+1997,Wet,Sacramento River,3,mean_temp,11.8728570756575
+1997,Wet,Sacramento River,4,mean_temp,16.538909046515
+1997,Wet,Yolo Bypass,3,mean_temp,11.5
+1997,Wet,Yolo Bypass,4,mean_temp,18.2
+1998,Wet,Sacramento River,3,mean_temp,11.895882940755952
+1998,Wet,Sacramento River,4,mean_temp,12.6877777762
+1999,Wet,Sacramento River,3,mean_temp,10.505120285471515
+1999,Wet,Sacramento River,4,mean_temp,13.464000053386666
+1999,Wet,Yolo Bypass,3,mean_temp,11.9
+1999,Wet,Yolo Bypass,4,mean_temp,14.35
+2000,Above Normal,Sacramento River,3,mean_temp,11.713333359474074
+2000,Above Normal,Sacramento River,4,mean_temp,13.234183687752381
+2000,Above Normal,Yolo Bypass,3,mean_temp,12
+2000,Above Normal,Yolo Bypass,4,mean_temp,16.3
+2001,Dry,Sacramento River,3,mean_temp,11.134714320053
+2001,Dry,Sacramento River,4,mean_temp,14.9525000095375
+2001,Dry,Yolo Bypass,3,mean_temp,15.05
+2002,Dry,Sacramento River,3,mean_temp,13.25803025678485
+2002,Dry,Sacramento River,4,mean_temp,15.554999952315
+2002,Dry,Yolo Bypass,3,mean_temp,12.5
+2002,Dry,Yolo Bypass,4,mean_temp,15.5
+2003,Above Normal,Sacramento River,3,mean_temp,13.39100000699
+2003,Above Normal,Sacramento River,4,mean_temp,14.72499999046
+2003,Above Normal,Yolo Bypass,3,mean_temp,0
+2003,Above Normal,Yolo Bypass,4,mean_temp,14.733333333333333
+2004,Below Normal,Sacramento River,3,mean_temp,13.464444435966666
+2004,Below Normal,Sacramento River,4,mean_temp,16.026111147133335
+2004,Below Normal,Yolo Bypass,3,mean_temp,14.9
+2004,Below Normal,Yolo Bypass,4,mean_temp,16.2
+2005,Above Normal,Sacramento River,3,mean_temp,13.483666674296666
+2005,Above Normal,Sacramento River,4,mean_temp,15.35132801873
+2005,Above Normal,Yolo Bypass,3,mean_temp,13.766666666666666
+2005,Above Normal,Yolo Bypass,4,mean_temp,15.966666666666667
+2006,Wet,Sacramento River,3,mean_temp,10.055333350494834
+2006,Wet,Sacramento River,4,mean_temp,12.064361085896667
+2006,Wet,Yolo Bypass,3,mean_temp,11.35
+2006,Wet,Yolo Bypass,4,mean_temp,13.05
+2007,Dry,Sacramento River,3,mean_temp,13.513454525690909
+2007,Dry,Sacramento River,4,mean_temp,16.676596088533334
+2007,Dry,Yolo Bypass,3,mean_temp,13.9
+2007,Dry,Yolo Bypass,4,mean_temp,16.700000000000003
+2008,Critical,Sacramento River,3,mean_temp,12.698
+2008,Critical,Sacramento River,4,mean_temp,15.319642857142856
+2008,Critical,Yolo Bypass,3,mean_temp,12.725
+2008,Critical,Yolo Bypass,4,mean_temp,15.813333333333334
+2009,Dry,Sacramento River,3,mean_temp,12.334444444444445
+2009,Dry,Sacramento River,4,mean_temp,14.753265859263637
+2009,Dry,Yolo Bypass,3,mean_temp,13.65
+2009,Dry,Yolo Bypass,4,mean_temp,18.924999999999997
+2010,Below Normal,Sacramento River,3,mean_temp,12.108
+2010,Below Normal,Sacramento River,4,mean_temp,12.631833337146666
+2010,Below Normal,Yolo Bypass,3,mean_temp,14.733333333333334
+2010,Below Normal,Yolo Bypass,4,mean_temp,15.454166666666666
+2011,Wet,Sacramento River,3,mean_temp,10.790714224400476
+2011,Wet,Sacramento River,4,mean_temp,13.155370377432222
+2011,Wet,Yolo Bypass,3,mean_temp,12.988888888888889
+2011,Wet,Yolo Bypass,4,mean_temp,15.36111111111111
+2012,Below Normal,Sacramento River,3,mean_temp,12.0990909455
+2012,Below Normal,Sacramento River,4,mean_temp,15.366190469833333
+2012,Below Normal,Yolo Bypass,3,mean_temp,12.633333333333333
+2012,Below Normal,Yolo Bypass,4,mean_temp,15.866666666666667
+2013,Dry,Sacramento River,3,mean_temp,13.531499998095
+2013,Dry,Sacramento River,4,mean_temp,16.876666653945456
+2013,Dry,Yolo Bypass,3,mean_temp,14.024499807349999
+2013,Dry,Yolo Bypass,4,mean_temp,16.76111111111111
+2014,Critical,Sacramento River,3,mean_temp,12.050555557977777
+2014,Critical,Sacramento River,4,mean_temp,17.739166624063333
+2014,Critical,Yolo Bypass,3,mean_temp,14.87899979485
+2014,Critical,Yolo Bypass,4,mean_temp,17.06849975586
+2015,Critical,Sacramento River,3,mean_temp,16.314606081641212
+2015,Critical,Sacramento River,4,mean_temp,16.853076785161537
+2015,Critical,Yolo Bypass,3,mean_temp,16.16466643016
+2015,Critical,Yolo Bypass,4,mean_temp,17.860166422526667
+2016,Below Normal,Sacramento River,3,mean_temp,8.99253320702
+2016,Below Normal,Sacramento River,4,mean_temp,16.625363608367778
+2016,Below Normal,Yolo Bypass,3,mean_temp,15.181999826430001
+2016,Below Normal,Yolo Bypass,4,mean_temp,17.986749664934166
+2017,Wet,Sacramento River,3,mean_temp,10.650022671343027
+2017,Wet,Sacramento River,4,mean_temp,12.475482435061403
+2017,Wet,Yolo Bypass,3,mean_temp,14.2534666921
+2017,Wet,Yolo Bypass,4,mean_temp,16.755
+2018,Below Normal,Sacramento River,3,mean_temp,11.062732140438154
+2018,Below Normal,Sacramento River,4,mean_temp,15.488611133352778
+2018,Below Normal,Yolo Bypass,3,mean_temp,11.909591302004477
+2018,Below Normal,Yolo Bypass,4,mean_temp,17.118666666666666
+2019,Wet,Sacramento River,3,mean_temp,9.530327363010477
+2019,Wet,Sacramento River,4,mean_temp,14.576458396815624
+2019,Wet,Yolo Bypass,3,mean_temp,12.362047606750444
+2019,Wet,Yolo Bypass,4,mean_temp,18.255166666666668
+2020,NA,Sacramento River,3,mean_temp,12.237037081192778
+2020,NA,Yolo Bypass,3,mean_temp,12.614656132250184
 1995,Wet,Sacramento River,3,first_day_exceeded,NA
 1995,Wet,Sacramento River,4,first_day_exceeded,NA
 1995,Wet,Yolo Bypass,3,first_day_exceeded,NA
@@ -789,7 +519,7 @@ water_year,water_year_type,Region,Month,stat,value
 2004,Below Normal,Sacramento River,4,first_day_exceeded,26
 2004,Below Normal,Yolo Bypass,3,first_day_exceeded,NA
 2004,Below Normal,Yolo Bypass,4,first_day_exceeded,27
-2005,Above Normal,Sacramento River,3,first_day_exceeded,15
+2005,Above Normal,Sacramento River,3,first_day_exceeded,9
 2005,Above Normal,Sacramento River,4,first_day_exceeded,NA
 2005,Above Normal,Yolo Bypass,3,first_day_exceeded,NA
 2005,Above Normal,Yolo Bypass,4,first_day_exceeded,NA
@@ -823,13 +553,13 @@ water_year,water_year_type,Region,Month,stat,value
 2012,Below Normal,Yolo Bypass,4,first_day_exceeded,23
 2013,Dry,Sacramento River,3,first_day_exceeded,18
 2013,Dry,Sacramento River,4,first_day_exceeded,2
-2013,Dry,Yolo Bypass,3,first_day_exceeded,27
+2013,Dry,Yolo Bypass,3,first_day_exceeded,28
 2013,Dry,Yolo Bypass,4,first_day_exceeded,22
 2014,Critical,Sacramento River,3,first_day_exceeded,17
-2014,Critical,Sacramento River,4,first_day_exceeded,8
-2014,Critical,Yolo Bypass,3,first_day_exceeded,6
+2014,Critical,Sacramento River,4,first_day_exceeded,9
+2014,Critical,Yolo Bypass,3,first_day_exceeded,21
 2014,Critical,Yolo Bypass,4,first_day_exceeded,7
-2015,Critical,Sacramento River,3,first_day_exceeded,11
+2015,Critical,Sacramento River,3,first_day_exceeded,13
 2015,Critical,Sacramento River,4,first_day_exceeded,1
 2015,Critical,Yolo Bypass,3,first_day_exceeded,9
 2015,Critical,Yolo Bypass,4,first_day_exceeded,16
@@ -844,10 +574,10 @@ water_year,water_year_type,Region,Month,stat,value
 2018,Below Normal,Sacramento River,3,first_day_exceeded,NA
 2018,Below Normal,Sacramento River,4,first_day_exceeded,25
 2018,Below Normal,Yolo Bypass,3,first_day_exceeded,NA
-2018,Below Normal,Yolo Bypass,4,first_day_exceeded,2
+2018,Below Normal,Yolo Bypass,4,first_day_exceeded,25
 2019,Wet,Sacramento River,3,first_day_exceeded,NA
 2019,Wet,Sacramento River,4,first_day_exceeded,29
 2019,Wet,Yolo Bypass,3,first_day_exceeded,20
 2019,Wet,Yolo Bypass,4,first_day_exceeded,17
 2020,NA,Sacramento River,3,first_day_exceeded,NA
-2020,NA,Yolo Bypass,3,first_day_exceeded,23
+2020,NA,Yolo Bypass,3,first_day_exceeded,NA

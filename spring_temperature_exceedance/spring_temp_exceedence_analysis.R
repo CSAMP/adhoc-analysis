@@ -3,12 +3,12 @@ library(tidyverse)
 library(dplyr)
 library(lubridate)
 
-# remotes::install_github("flowwest/waterYearType")
+#remotes::install_github("flowwest/waterYearType")
 library(waterYearType)
-
 
 # Load in secchi temp data and add water year, filter to look at correct regions 
 secchi_temp <- read_csv("https://raw.githubusercontent.com/CSAMP/delta-secchi-temperature-data/temp-documentation/delta_water_quality_data_with_strata.csv") 
+
 daily_mean_temp <- secchi_temp %>%
   mutate(date = as_date(Date),
          water_year = ifelse(month(date) >= 10, year(date) + 1, year(date))) %>% 
@@ -19,6 +19,7 @@ daily_mean_temp <- secchi_temp %>%
   ungroup() %>% 
   mutate(month = month(date), day = day(date)) %>% 
   glimpse()
+
 
 water_years <- waterYearType::water_year_indices %>% 
   filter(location == "Sacramento Valley", WY >= 1995) %>%

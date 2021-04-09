@@ -12,7 +12,7 @@ We first summarized the data to daily averages and then calculated the following
   * n: number of observations within the water_year/month combination
   * min_temp: minimum temperature within the water_year/month combination
   * max_temp: maximum temperature within the water_year/month combination
-  * avg_temp: mean temperature within the water_year/month combination
+  * mean_temp: mean temperature within the water_year/month combination
   * first_day_exceeded: the day that the temperature first exceeded the temperature threshold
 * value: value
 
