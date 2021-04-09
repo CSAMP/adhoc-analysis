@@ -1,6 +1,6 @@
 # Spring Temperature Exceedance Analysis
 
-Using [delta temperature data](https://github.com/CSAMP/delta-secchi-temperature-data) we examined the frequency of temperatures in March and April being >= 15°C and >= 17°C respectively for two strata (Yolo Bypass and Sacramento River). 
+Using [delta temperature data](https://github.com/CSAMP/delta-secchi-temperature-data) we examined the frequency of temperatures in March and April being >= 15°C and >= 17°C respectively for two strata (Yolo Bypass and Sacramento River). We used water year type data from [WaterYearType](https://github.com/FlowWest/waterYearType) and filtered to include only `location == "Sacramento Valley".`
 
 We first summarized the data to daily averages and then calculated the following:
 
