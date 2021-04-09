@@ -16,4 +16,4 @@ We first summarized the data to daily averages and then calculated the following
   * first_day_exceeded: the day that the temperature first exceeded the temperature threshold
 * value: value
 
-The summarized data is saved in `strata_exceeding_tresholds.csv`.
+The summarized data is saved in `cache_slough_temp_exceeding_tresholds_long.csv`.
