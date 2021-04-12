@@ -39,14 +39,27 @@ graph_temp_exceedence <- function(desired_month, desired_water_year) {
   temps_to_graph %>%
     filter(water_year == desired_water_year, month == desired_month) %>% 
     ggplot(aes(x = day, y = mean_daily_temp, col = exceeded_day)) + 
-    geom_point() +
+    geom_point(size = 3) +
+    scale_x_continuous(breaks=seq(0, 31, 5)) +
     scale_color_manual(values=c("#003f5c", "#ff0a0a")) + 
-    geom_hline(yintercept = threshold, linetype = "dashed", color = "gray") + 
+    geom_hline(yintercept = threshold, linetype = "dashed", color = "gray", size = 2) + 
     theme_minimal() +
     labs(x = "Day", 
          y = "Mean Daily Temperature", 
          title = paste0('Temperature exceeding ', threshold, " °C"),
-         subtitle = paste0(month_name, ", ", desired_water_year, " (Water Year Type: ", water_year_type, ")"))
+         subtitle = paste0(month_name, ", ", desired_water_year, " (Water Year Type: ", water_year_type, ")"),
+         colour = "Exceeds Threshold") +
+    theme(text = element_text(size = 20),
+          # legend.position = c(.90, .05),
+          legend.direction = "horizontal", 
+          legend.position = "top",
+          legend.box = "horizontal",
+          legend.title = element_text(size = 10), 
+          legend.text = element_text(size = 10),
+          axis.title.x = element_text(vjust = -0.5),
+          axis.title.y = element_text(margin = margin(t = 0, r = 15, b = 0, l = 0)),
+          plot.title = element_text(hjust = 0.5),
+          plot.subtitle = element_text(hjust = 0.5)) 
   ggsave(paste0('figures/temp-exceedence', month_name, desired_water_year,'.jpg'), device = 'jpeg', width = 16, height = 10, units = 'in')
 }
 
@@ -58,3 +71,4 @@ month_year_combos <- temps_to_graph %>%
 
 
 purrr::pmap(month_year_combos, graph_temp_exceedence)
+
