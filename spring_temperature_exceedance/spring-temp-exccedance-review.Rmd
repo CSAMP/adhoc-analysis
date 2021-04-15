@@ -1,5 +1,5 @@
 ---
-title: "spring-temp-exceedence-review"
+title: "Spring Temp Exceedance Review"
 author: "Erin Cain"
 date: "4/14/2021"
 output: html_document
@@ -37,6 +37,7 @@ The summarized data is saved in `cache_slough_temp_exceeding_tresholds_long.csv`
 ## March Temp Exceedance 
 
 **March Proportion Temp Exceedance of Threshold by Water Year Type**
+I calculated the mean proportion above threshold for each water year type by grouping by `water_year_type` and then calculating the mean of the  `prop_above_threshold` column.
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 temps_exceeding <- read_csv("cache_slough_temp_exceeding_thresholds_wide.csv")
