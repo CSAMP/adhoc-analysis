@@ -16,4 +16,8 @@ We first summarized the data to daily averages and then calculated the following
   * first_day_exceeded: the day that the temperature first exceeded the temperature threshold
 * value: value
 
-The summarized data is saved in `cache_slough_temp_exceeding_tresholds_long.csv`.
+The summarized data is saved in two csv:
+* `cache_slough_temp_exceeding_tresholds_long.csv` shows the results generated using the dataset `delta_water_quality_with_strata.csv`
+* `cache_slough_exceedance_from_txt_temp_file_long.csv` shows the results generated using the dataset `temp.txt` 
+
+Graphs showing temperature exceedence are stored in the figures directory. 
