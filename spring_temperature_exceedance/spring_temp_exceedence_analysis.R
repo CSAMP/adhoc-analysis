@@ -9,24 +9,37 @@ library(waterYearType)
 # Load in secchi temp data and add water year, filter to look at correct regions 
 secchi_temp <- read_csv("https://raw.githubusercontent.com/CSAMP/delta-secchi-temperature-data/temp-documentation/delta_water_quality_data_with_strata.csv") 
 
-daily_mean_temp <- secchi_temp %>%
-  mutate(date = as_date(Date),
-         water_year = ifelse(month(date) >= 10, year(date) + 1, year(date))) %>% 
-  filter(Region == c("Yolo Bypass", "Sacramento River"), water_year >= 1995) %>% 
-  arrange(water_year) %>% 
-  group_by(water_year, region = Region, date) %>%
-  summarise(mean_daily_temp = mean(Temperature, na.rm = TRUE)) %>%
-  ungroup() %>% 
-  mutate(month = month(date), day = day(date)) %>% 
+# Load in temp.txt to redo logic with this dataset
+raw_temp <- read.table("temp.txt")[-1,] 
+# Clean raw_temp to create daily_mean temp in the same format as original daily mean temp
+
+daily_mean_temp <- raw_temp %>%
+  select("year" = V1, "julian_day" = V2, "Sacramento River" = V3, "Yolo Bypass" = V14) %>%
+  mutate(date = as.Date(as.numeric(julian_day), origin = paste0(as.character(as.numeric(year)-1), "-", "12", "-", "31")),
+         water_year = ifelse(month(date) >= 10, year(date) + 1, year(date))) %>%
+  filter(water_year >= 1995) %>%
+  gather(region, mean_daily_temp, `Sacramento River`:`Yolo Bypass`) %>%
+  mutate(month = month(date), day = day(date), mean_daily_temp = as.numeric(mean_daily_temp)) %>%
   glimpse()
 
+
+# daily_mean_temp <- secchi_temp %>%
+#   mutate(date = as_date(Date),
+#          water_year = ifelse(month(date) >= 10, year(date) + 1, year(date))) %>% 
+#   filter(Region == c("Yolo Bypass", "Sacramento River"), water_year >= 1995) %>% 
+#   arrange(water_year) %>% 
+#   group_by(water_year, region = Region, date) %>%
+#   summarise(mean_daily_temp = mean(Temperature, na.rm = TRUE)) %>%
+#   ungroup() %>% 
+#   mutate(month = month(date), day = day(date)) %>% 
+#   glimpse()
 
 water_years <- waterYearType::water_year_indices %>% 
   filter(location == "Sacramento Valley", WY >= 1995) %>%
   select(water_year = WY, water_year_type = Yr_type) %>% 
   glimpse()
 
-# Join daily aveage temp and water_year data together 
+# Join daily average temp and water_year data together 
 # Group by water year, water_year_type, region, and month
 temp_with_wy <- daily_mean_temp %>% 
   left_join(water_years) %>%
@@ -45,5 +58,5 @@ temp_with_wy <- daily_mean_temp %>%
   
 # View and write csv 
 View(temp_with_wy)
-write_csv(temp_with_wy, "cache_slough_temp_exceeding_thresholds_long.csv")
+write_csv(temp_with_wy, "cache_slough_exceedance_from_txt_temp_file_long.csv")
 # write_csv(temp_with_wy, "cache_slough_temp_exceeding_thresholds_wide.csv")
