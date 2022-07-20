@@ -4,7 +4,7 @@ library(lubridate)
 
 # Define node to location lookup based on calsim II schema: https://s3-us-west-2.amazonaws.com/cvpiaflow-r-package/BST_CALSIMII_schematic_040110.jpg
 location_lookup <- c("Delta Outflow", "Freeport Flows", "OMR Flows", "SWP Export", "CVP Export", 
-                     "Trinity Lake", "Shasta Lake", "Orville Lake", "Folsom Lake")
+                     "Trinity Reservoir", "Shasta Reservoir", "Orville Reservoir", "Folsom Reservoir")
 
 names(location_lookup) <- c("C407", "C400", "C408", "DEL_SWP_TOTAL", "DEL_CVP_TOTAL", 
                             "S1", "S4", "S6", "S8")
