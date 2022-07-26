@@ -2,7 +2,7 @@
 ## CalSim Data Source
 
 Amanda Becker from Reclamation provided FlowWest with the following two 
-DV outputs from CALSIM on 07/19: 
+DV outputs from CALSIM on 07/19/22: 
 
 1) 2008/2009 Biop (COS_rev19_Q0_JanEstExpCVP.dss)
 2) 2019 BiOp and 2020 ITP (HistBenchmark_041822_DV.dss)
